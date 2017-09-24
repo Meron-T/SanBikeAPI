@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Santander Bikes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <link rel=stylesheet href="assets/css/myStyle.css"/>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Santander</strong>Bikes</a>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Santander Bikes</h1>
+											<p>Hire Bikes in London with Santander</p>
+										</header>
+										<p>Make sure to not miss every nook and cranny of London for as little as £2. <br>These Boris bikes allow you to explore all of central London making sure not to miss out on the scenic routes that vehicles are likely to miss!</p>
+										<ul class="actions">
+											<li><a href="#" class="button big">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										<img src="assets/bicycle-23320132.jpg" alt="" />
+									</span>
+								</section>
+                            
+                            <h2 id="elements">Information</h2>
+										<div class="row">
+											<div class="6u 12u$(medium)">
+
+												<!-- Text stuff -->
+													<h3>How it works</h3>
+													<p>Getting started is <strong>easy.</strong>Simply hire a bike, ride it wherever you like, then return it to a docking station. <br> The video on the right outlines how this is done.</p>
+													<hr />
+                                                    <h3>What you pay</h3>
+                                                    <p>Santander cycles has two hiring options:</p>
+                                                    <h4>Daily</h4>
+                                                    <p>It costs £2 to access a bike for 24 hours. The first 30 minutes of each journey is free - after that it costs £2 per 30 minutes.</p>
+                                                    <h4>Yearly</h4>
+                                                    <p>If you become a member, you can use the bikes all year round for £90. Sign up for annual membership.</p>
+                                                    <a href="https://tfl.gov.uk/modes/cycling/santander-cycles/what-you-pay?intcmp=2315" class="button special">More information on payments</a>
+                                                    <hr />
+                                                    <h4>Amazing Routes</h4>
+                                                    <p>Discover London on your bike. With this local cycling guide, you can discover family-friendly routes through parks, waterways and forests. <br>Click on the button below to view the guide!</p>
+                                                    <a href="https://tfl.gov.uk/modes/cycling/santander-cycles/how-it-works?intcmp=2297" class="button special">How it works</a>
+                                                    <hr />
+													<h3>For more information</h3>
+                                                    <a href="https://tfl.gov.uk/modes/cycling/santander-cycles/leisure-routes" class="button special">Locations</a>
+                                                    <br>
+                                            </div>
+                            
+                            
+                            <!--/Section-->
+                            
+                            <!--Section-->
+                            
+                            <div id="mapsec" class="6u$ 12u$(medium)">
+
+                                
+                                                    <!--<div class="videoH">-->
+                                                    <div class="embed-responsive embed-responsive-4by3 videoStyle">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TQQIyskZAys?rel=0"></iframe>
+                                                    </div>
+                                                    <style>
+                                                    .videoStyle {
+                                                    height: 400px;
+                                                    width: 100%;
+                                                    }
+                                                    </style>
+                                                    <hr />
+                                                    <!--</div>-->
+                                
+                                                    <!--MAP-->
+                                                    <p>Search for you nearest bike docking station below!<br> The Green arrow highlights <strong>your</strong> location.<br>The red arrows highlight your nearest <strong>docking station</strong>. <br>The green lines outline bike paths, with the intensity of the colour an indication of the supportiveness of the path for bikes.</p>
+                                                    <hr />
+                                
+                                
+                                
+                                
+                                
+                                                    <input type="text" id="userInput"><button id="myButton">Search!</button>
+                                                    <div id="map"></div>
+                                                    <style>
+                                                    #map {
+                                                    height: 400px;
+                                                    width: 100%;
+                                                    }
+                                                    </style>
+                                                    <script async defer
+                                             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC53eb_s8aL8hFuuUa7Hd4Ssqw9ZY8FwKY&callback=initMap"></script>
+                                
+                                
+                                
+                            </div>
+                            </div>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="#banner">Homepage</a></li>
+										<li><a href="#mapsec">Map</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>What I learnt</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<p>This simple project implements two separate APIs - one of which is a Google Maps API and the other  a TFL API. Completing this project enabled me to become comfortable with Javascript and implementation and manipulation of APIs. Scroll to the bottom of the page and follow the instructions above the search bar to find your local bike docking station!. Bear in mind, stray too far from central London at the risk of no nearby Boris bikes docking stations.</p>
+										</article>
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            <script src="assets/js/myStyle.js"></script>
+
+	</body>
+</html>
